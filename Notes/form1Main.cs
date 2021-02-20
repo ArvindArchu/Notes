@@ -21,7 +21,8 @@ namespace Notes
         public form1Main()
         {
             InitializeComponent();
-            textBox1.Text = textboxtxt;         
+            textBox1.Text = textboxtxt;
+            textBox1.AccessibleName      
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -95,7 +96,14 @@ namespace Notes
             form1.IsMdiContainer = true;
             form1.Show();
             textBox1.Text = textboxtxt;
+            
      
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Font = 
+            
         }
     }
 }

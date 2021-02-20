@@ -77,6 +77,7 @@
             this.textBox1.Size = new System.Drawing.Size(756, 330);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Message\r\n\r\n";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button4
             // 
